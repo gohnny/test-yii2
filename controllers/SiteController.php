@@ -9,7 +9,7 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        return 'Hello from actionIndex';
+        return $this->render('index');
     }
 
 }
