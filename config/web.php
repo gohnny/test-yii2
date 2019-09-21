@@ -1,5 +1,5 @@
 <?php
-return[
-  'id'=>'test',
-  'basePath'=>realpath(__DIR__.'/../')
+return [
+    'id' => 'test',
+    'basePath' => realpath(__DIR__ . '/../')
 ];
