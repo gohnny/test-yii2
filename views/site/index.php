@@ -10,6 +10,7 @@
     </div>
 </header>
 <!-- Контент страницы -->
+
 <div class="about" id="about"></div>
 <div class="row about">
     <div class="col-lg-4 col-md-4 col-sm-12">
@@ -29,6 +30,7 @@
         </p>
     </div>
 </div>
+<hr>
 <!-- portfolio -->
 <div class="portfolio" id="portfolio"></div>
 <div class="portfolio">
@@ -192,10 +194,3 @@
     </div>
 </div>
 
-<!-- Подключаем jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Подключаем плагин Popper (необходим для работы компонента Dropdown и др.) -->
-<script src="js/popper.min.js"></script>
-<!-- Подключаем Bootstrap JS -->
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src='js/main.js'></script>

@@ -117,7 +117,7 @@
 
 /*Portfolio*/
 .portfolio {
-    margin: 4em 0;
+    margin: 2em 0;
     position: relative;
 }
 
@@ -189,7 +189,7 @@
     background: #f973007d;
     position: absolute;
     width: 90%;
-    padding: 2em;
+    padding: 0em;
     top: 0;
     border-bottom-left-radius: 0;
 }
