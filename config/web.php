@@ -4,7 +4,8 @@ return [
     'basePath' => realpath(__DIR__ . '/../'),
     'components' => [
         'urlManager' => [
-            'enablePrettyUrl' => true
+            'enablePrettyUrl' => true,
+            'showScriptName' => false
         ]
     ]
 ];
