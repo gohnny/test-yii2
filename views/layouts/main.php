@@ -41,10 +41,10 @@ use yii\helpers\Url;
                        href="<?= Yii::$app->urlManager->createUrl(['site/feedback-form']) ?>">Contact</a></li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="join"
-                       href="<?= Yii::$app->urlManager->createUrl(['site/join']) ?>">Join</a></li>
+                       href="<?= Yii::$app->urlManager->createUrl(['user/join']) ?>">Join</a></li>
                 <li class="nav-item">
                     <a class="nav-link " data-value="login"
-                       href="<?= Yii::$app->urlManager->createUrl(['site/login']) ?>">Login</a></li>
+                       href="<?= Yii::$app->urlManager->createUrl(['user/login']) ?>">Login</a></li>
             </ul>
         </div>
     </nav>
