@@ -1,5 +1,28 @@
-<br>
-<br>
-<br>
-<br>
-<h1>Hello from Join</h1>
+<div class="contact-form" id="contact">
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <h1>Register Form</h1>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 right">
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                               name="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Password" password="">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="password2" password2="">
+                    </div>
+
+                    <input type="submit" class="btn btn-secondary btn-block" value="Register" name="">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
