@@ -24,7 +24,7 @@ $this->title = 'Contact Form';
             'id' => 'contact-form', /* Идентификатор формы */
             'options' => ['class' => 'container'], /* класс формы */
             'fieldConfig' => [ /* классы полей формы */
-                'template' => "<div class=\"col-lg-3\">{label}</div>\n<div class=\"col-lg-6\">{input}</div>\n<div class=\"col-lg-12 col-lg-offset-3 \">{error}</div>"
+                'template' => "<div class=\"col-lg-3\">{label}</div>\n<div class=\"col-lg-6\">{input}</div>\n<div class=\"col-lg-10 invalid-feedback d-block\">{error}</div>"
             ],
         ]); ?>
         <?= $form->field($model, 'name') ?>
