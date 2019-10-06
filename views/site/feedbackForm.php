@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
 use yii\captcha\Captcha;
+use yii\bootstrap4\Alert;
 
 ?>
 
@@ -13,10 +14,13 @@ $this->title = 'Contact Form';
 <div class="row margin-null">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
-        <div class="alert alert-success col-lg-6 col-md-3 col-sm-15 ">
-            Спасибо за обращение к нам. Мы постараемся ответить вам как можно скорее.
-        </div>
+    <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')):
+        echo Alert::widget([
+            'options' => [
+                'class' => 'alert alert-success col-lg-6 col-md-3 col-sm-15 '],
+            'body' => '<b>Thank you!</b>Your message has been sent.',
+            'closeButton' => false
+        ]);; ?>
 
     <?php else: ?>
 
