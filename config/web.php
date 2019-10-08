@@ -2,6 +2,7 @@
 $params = require(__DIR__ . '/params.php');
 return [
     'id' => 'test',
+    'language' => 'en',
     'basePath' => realpath(__DIR__ . '/../'),
     'bootstrap' => ['debug'],
     'components' => [
