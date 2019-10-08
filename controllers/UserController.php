@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\UserLoginForm;
 use yii\web\Controller;
 
 class  UserController extends Controller
@@ -13,6 +14,7 @@ class  UserController extends Controller
 
     public function actionLogin()
     {
-        return $this->render('login');
+        $userLoginForm = new UserLoginForm();
+        return $this->render('login', compact('userLoginForm'));
     }
 }
