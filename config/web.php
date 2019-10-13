@@ -24,6 +24,10 @@ return [
                 'port' => '587',
                 'encryption' => 'tls',
             ],
+        ],
+        'db' => require(__DIR__ . '/db.php'),
+        'user' => [
+            'identityClass' => 'app\models\UserIdentity'
         ]
     ],
     'params' => $params,
