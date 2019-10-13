@@ -14,5 +14,18 @@ class UserJoinForm extends Model
     public $confirm_password;
     public $verifyCode;
 
+    public function rules()
+    {
+        return [
+            [['name', 'email', 'password', 'confirm_password'], 'required'],
+            ['name', 'string', 'min' => 3, 'max' => 255],
+            ['email', 'email'],
+            ['verifyCode', 'captcha', 'captchaAction' => '/site/captcha'],
+            ['password', 'string', 'min' => 4],
+            ['confirm_password', 'compare', 'compareAttribute' => 'password']
+
+        ];
+    }
+
 
 }
