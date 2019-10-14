@@ -1,7 +1,6 @@
 <?php
 
-//use yii\bootstrap4\ActiveForm;
-use yii\bootstrap4\Alert;
+
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
