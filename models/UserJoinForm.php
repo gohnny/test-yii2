@@ -22,9 +22,15 @@ class UserJoinForm extends Model
             ['email', 'email'],
             ['verifyCode', 'captcha', 'captchaAction' => '/site/captcha'],
             ['password', 'string', 'min' => 4],
-            ['confirm_password', 'compare', 'compareAttribute' => 'password']
+            ['confirm_password', 'compare', 'compareAttribute' => 'password'],
+            ['email', 'errorIfEmailUsed']
 
         ];
+    }
+
+    public function errorIfEmailUsed()
+    {
+        $this->addError('email', "This E-mail already exits");
     }
 
 

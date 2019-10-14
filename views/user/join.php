@@ -1,9 +1,10 @@
 <?php
 
-use yii\bootstrap4\ActiveForm;
+//use yii\bootstrap4\ActiveForm;
 use yii\bootstrap4\Alert;
 use yii\captcha\Captcha;
 use yii\helpers\Html;
+use yii\widgets\ActiveForm;
 
 ?>
 
@@ -16,8 +17,8 @@ use yii\helpers\Html;
             'options' => ['class' => 'container'],
             'fieldConfig' => [
                 'template' => "<div class=\"col-lg-3\">{label}</div>\n
-                           <div class=\"col-lg-6\">{input}</div>\n
-                           <div class=\"col-lg-10 invalid-feedback d-block\">{error}</div>"]
+                           <div class=\"col-lg-6\">{input}</div>
+                           \n<div class=\"col-lg-10 invalid-feedback d-block\">{error}</div>"]
         ]) ?>
         <?php echo $form->field($userJoinForm, 'name') ?>
         <?php echo $form->field($userJoinForm, 'email') ?>

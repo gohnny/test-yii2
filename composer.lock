@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-  "content-hash": "d5f4d4b0d0dca3713d07d1c4809c2799",
+  "content-hash": "f8be9ef94994d9e3fccd876ee99a0939",
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -864,16 +864,16 @@
       },
       {
             "name": "yiisoft/yii2",
-            "version": "2.0.27",
+        "version": "2.0.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "6793f8f9b4cd891dbf475cfbb88cf480f74eaa85"
+              "reference": "80bf3a6e04a0128f753cb73ba7255d8e2ae3a02f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6793f8f9b4cd891dbf475cfbb88cf480f74eaa85",
-                "reference": "6793f8f9b4cd891dbf475cfbb88cf480f74eaa85",
+              "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/80bf3a6e04a0128f753cb73ba7255d8e2ae3a02f",
+              "reference": "80bf3a6e04a0128f753cb73ba7255d8e2ae3a02f",
                 "shasum": ""
             },
             "require": {
@@ -960,20 +960,20 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2019-09-18T13:04:16+00:00"
+        "time": "2019-10-08T13:14:18+00:00"
         },
         {
           "name": "yiisoft/yii2-bootstrap4",
-          "version": "2.0.7",
+          "version": "2.0.8",
           "source": {
             "type": "git",
             "url": "https://github.com/yiisoft/yii2-bootstrap4.git",
-            "reference": "6745eb7cfc13ac7bc01b396adb8410aa41711fa6"
+            "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420"
           },
           "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap4/zipball/6745eb7cfc13ac7bc01b396adb8410aa41711fa6",
-            "reference": "6745eb7cfc13ac7bc01b396adb8410aa41711fa6",
+            "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap4/zipball/c67ae3f3624c35d977841f6b18d0d752ebed6420",
+            "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420",
             "shasum": ""
           },
           "require": {
@@ -1029,7 +1029,7 @@
             "bootstrap4",
             "yii2"
           ],
-          "time": "2019-08-13T11:49:38+00:00"
+          "time": "2019-10-08T11:01:37+00:00"
         },
       {
             "name": "yiisoft/yii2-composer",
