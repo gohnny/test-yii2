@@ -18,4 +18,10 @@ class  UserRecord extends ActiveRecord
         $this->passhash = "fdsfsdfsdkfjskdjfsdlk;fk";
         $this->status = 2;
     }
+
+    public function existEmail($email)
+    {
+        $count = static::find()->where(['email' => $email])->count();
+        return $count > 0;
+    }
 }
