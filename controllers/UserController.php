@@ -36,10 +36,20 @@ class  UserController extends Controller
 
     public function actionLogin()
     {
-
+        if (Yii::$app->request->isPost)
+            return $this->actionLoginPost();
         $userLoginForm = new UserLoginForm();
-        // $uid = UserIdentity::findIdentity(3);
-        // \Yii::$app->user->login($uid);
+        return $this->render('login', compact('userLoginForm'));
+    }
+
+    private function actionLoginPost()
+    {
+        $userLoginForm = new UserLoginForm();
+        if ($userLoginForm->load(Yii::$app->request->post()))
+            if ($userLoginForm->validate()) {
+                $userLoginForm->login();
+                return $this->redirect('/');
+            }
         return $this->render('login', compact('userLoginForm'));
     }
 
