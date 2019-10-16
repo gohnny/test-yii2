@@ -34,37 +34,37 @@
 <!-- portfolio -->
 <div class="portfolio" id="portfolio"></div>
 <div class="portfolio">
-    <h1 class="text-center">Portfolio</h1>
+    <h1 class="text-center">Technologies which i use in my project</h1>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/bear-4494180__340.jpg" class="img-fluid">
+                <img src="images/portfolio/php2_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/cello-4480885__340.jpg" class="img-fluid">
+                <img src="images/portfolio/yii2_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/dusk-3745864__340.jpg" class="img-fluid">
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/sheep-4418342__340.jpg" class="img-fluid">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/squirrel-4466632__340.jpg" class="img-fluid">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/sunrise-4497745__340.jpg" class="img-fluid">
+                <img src="images/portfolio/Mysql.png" class="img-fluid">
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/takeoff-4471092__340.jpg" class="img-fluid">
+                <img src="images/portfolio/git.png" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/sunrise-4497745__340.jpg" class="img-fluid">
+                <img src="images/portfolio/composer_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/sheep-4418342__340.jpg" class="img-fluid">
+                <img src="images/portfolio/Linux_cr.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/portfolio/html_cr.png" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/portfolio/css_cr.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/portfolio/bootstrap.png" class="img-fluid">
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
                 <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="card">
                         <div class="card-img">
-                            <img src="images/posts/polit.jpg" class="img-fluid">
+                            <img src="images/posts/1st blog.jpeg" class="img-fluid">
                         </div>
                         <div class="card-body">
                             <h4 class="card-title">Post Title</h4>
@@ -95,7 +95,7 @@
                 <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="card">
                         <div class="card-img">
-                            <img src="images/posts/images.jpg" class="img-fluid">
+                            <img src="images/posts/2nd blog.jpeg" class="img-fluid">
                         </div>
 
                         <div class="card-body">
@@ -113,7 +113,7 @@
                 <div class="col-md-4 col-lg-4 col-sm-12">
                     <div class="card">
                         <div class="card-img">
-                            <img src="images/posts/imag2.jpg" class="img-fluid">
+                            <img src="images/posts/3rd blog.jpg" class="img-fluid">
                         </div>
 
                         <div class="card-body">
@@ -132,41 +132,6 @@
         </div>
 </div>
 </div>
-<!-- Team section -->
-<div class="team" id="team">
-    <div class="container">
-        <h1 class="text-center">Our Team</h1>
-        <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-12 item">
-                <img src="images/team/team-3.jpg" class="img-fluid" alt="team">
-                <div class="des">
-                    Sara
-                </div>
-                <span class="text-muted">Manager</span>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 item">
-                <img src="images/team/team-3.jpg" class="img-fluid" alt="team">
-                <div class="des">
-                    Chris
-                </div>
-                <span class="text-muted">S.enginner</span>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 item">
-                <img src="images/team/team-3.jpg" class="img-fluid" alt="team">
-                <div class="des">
-                    Layla
-                </div>
-                <span class="text-muted">Front End Developer</span>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 item">
-                <img src="images/team/team-3.jpg" class="img-fluid" alt="team">
-                <div class="des">
-                    J.Jirard
-                </div>
-                <span class="text-muted">Team Manger</span>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
