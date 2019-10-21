@@ -22,9 +22,9 @@ use yii\helpers\Html;
             'captchaAction' => '/site/captcha',
             'template' => '<div class="row"><div class="col-lg-4">{image}</div><div class="col-lg-7">{input}</div></div>',
         ]) ?>
-        <div class="form-group">
-            <?= Html::submitButton('Log in', ['class' => 'btn btn-success', 'name' => 'contact-button']) ?>
-        </div>
+        <div class="form-group"
+    </div>
+    <?= Html::submitButton('Log in', ['class' => 'btn btn-success', 'name' => 'login-button']) ?>
         <?php ActiveForm::end(); ?>
 </div>
 </div>

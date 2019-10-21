@@ -33,6 +33,18 @@
     background-color: #343a40 !important
 }
 
+.breadcrumb {
+
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.3rem 1rem;
+    margin-top: 3.2rem;
+    list-style: none;
+    background-color: #d6d6c0;
+    border-radius: 0.5rem;
+}
+
 /*header style*/
 
 .header {
@@ -63,7 +75,7 @@
 }
 
 .description p {
-    color: #434442;
+    color: #003f0a;
     font-size: 20px;
     width: 50%;
     line-height: 1.5;
@@ -225,4 +237,67 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 html, h1, h2, h3, h4, h5, h6, a {
     font-family: "Raleway";
+}
+
+/*Seemore*/
+.seemore {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+
+}
+
+.seemore h1 {
+    color: #F97300;
+    margin: 0.5em;
+}
+
+.seemore img {
+    /*height: 30%;*/
+    width: 100%;
+    /*border-radius: 50%;*/
+}
+
+.seemore span {
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+
+.seemore .desc {
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.seemore .desc h3 {
+    color: #10828C;
+}
+
+.seemore .desc p {
+    line-height: 2;
+    color: #888;
+}
+
+.blog {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.blog h1, h2, h3 {
+    font-family: "Raleway";
+    color: #0c5460;
+}
+
+.blog p {
+    font-family: Centaur;
+    text-align: left;
+    line-height: 28px;
+    /*margin-left: 6em;*/
+}
+
+.blog a {
+    color: #0b72b8;
+    text-decoration: none;
+    outline: 0;
 }

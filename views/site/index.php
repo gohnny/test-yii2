@@ -1,11 +1,20 @@
+<?php
+
+use yii\helpers\Html;
+
+?>
 <header class="header">
     <div class="overlay"></div>
-    <div class="description  ">
+    <div class="description">
         <h1> Hello ,Welcome To My official Website
-            <p> cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p> Hi, my name is Sergey and I am a beginner web developer. Where do I see myself in web development?
+            <p>I answer: my soul with the backend.
+                I make efforts to master modern frameworks and technologies. When developing this site, I used the
+                following technologies
             </p>
-            <button class="btn btn-outline-secondary btn-lg">See more</button>
+            <!--            <button class="btn btn-outline-secondary btn-lg">See more</button>-->
+            <a href="<?= Yii::$app->getUrlManager()->createUrl(['site/seemore']); ?>"
+               class="btn btn-secondary btn-lg">See more</a>
         </h1>
     </div>
 </header>
@@ -19,14 +28,15 @@
     </div>
     <div class="col-lg-8 col-md-8 col-sm-12 desc">
 
-        <h3>D.John</h3>
+        <h3>
+            Author's notes</h3>
         <p>
-            ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            This project implemented:
+            User registration with validation of field filling
+            as well as checking for a repeated email.
+            Authorization of users with validation of fields.
+            Database Migration
+            Bootstrap4 Yii2 Menu
         </p>
     </div>
 </div>
@@ -81,14 +91,15 @@
                             <img src="images/posts/1st blog.jpeg" class="img-fluid">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
+                            <h4 class="card-title">Active Record</h4>
                             <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Сборник методов для формирования запросов к БД в yii2.
+                                Здесь я привел список с функциями
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="card-link">Read more</a>
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/activerecord-blog']); ?>"
+                               class="card-link">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -99,14 +110,15 @@
                         </div>
 
                         <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
+                            <h4 class="card-title">Основы Docker за Х часов и Y дней</h4>
                             <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                Цель данной статьи собрать в небольшую кучку основную информацию,
+                                минимально
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="card-link">Read more</a>
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/docker-blog']); ?>"
+                               class="card-link">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -117,20 +129,21 @@
                         </div>
 
                         <div class="card-body">
-                            <h4 class="card-title">Post Title</h4>
+                            <h4 class="card-title">RBAC - это просто!</h4>
                             <p class="card-text">
-
-                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                В этом посте я постараюсь понятно объяснить как настроить RBAC в Yii2.
+                                Напомню, RBAC - Role Based Access Control
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="" class="card-link">Read more</a>
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/rbac-blog']); ?>"
+                               class="card-link">Read more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>
+    </div>
 </div>
 
 

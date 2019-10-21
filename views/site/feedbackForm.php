@@ -6,7 +6,7 @@ use yii\captcha\Captcha;
 use yii\bootstrap4\Alert;
 
 ?>
-<?php $this->title = 'Contact Form'; ?>
+
 <div class="contact-form" id="contact">
     <div class="container">
         <h1>Contact form</h1>
@@ -21,9 +21,9 @@ use yii\bootstrap4\Alert;
     <?php else: ?>
 
         <?php $form = ActiveForm::begin([
-            'id' => 'contact-form', /* Идентификатор формы */
-            'options' => ['class' => 'container'], /* класс формы */
-            'fieldConfig' => [ /* классы полей формы */
+            'id' => 'contact-form',
+            'options' => ['class' => 'container'],
+            'fieldConfig' => [
                 'template' => "<div class=\"col-lg-3\">{label}</div>\n<div class=\"col-lg-6\">{input}</div>\n
                                <div class=\"col-lg-10 invalid-feedback d-block\">{error}</div>"
             ]

@@ -6,6 +6,7 @@ use yii\mail\MessageInterface;
 use yii\web\View;
 use yii\bootstrap4\NavBar;
 use yii\bootstrap4\Nav;
+use yii\widgets\Breadcrumbs;
 
 /* @var $this View view component instance */
 /* @var $message MessageInterface the message being composed */
@@ -56,8 +57,16 @@ use yii\bootstrap4\Nav;
         ],
         'items' => $menu
     ]);
-    NavBar::end()
+    NavBar::end();
     ?>
+    <!--Breadcrumbs   -->
+    <? //=
+    ////    Breadcrumbs::widget([
+    ////        'itemTemplate' => "<li class='breadcrumb-item'>{link}</li>\n",
+    ////        'homeLink' => false,
+    ////        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+    ////    ])
+    ////    ?>
     <?= $content ?>
     <?php $this->endBody() ?>
     </body>

@@ -13,6 +13,11 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionSeemore()
+    {
+        return $this->render('seemore');
+    }
+
     public function actionFeedbackForm()
 
     {
