@@ -1,3 +1,6 @@
 .idea
 vendor
-runtime/debug
+runtime
+config/db.php
+config/web.php
+config/params.php

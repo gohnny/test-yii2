@@ -11,16 +11,16 @@ return [
             'showScriptName' => false
         ],
         'request' => [
-            'cookieValidationKey' => 'super secret code 12123151465446542'
+            'cookieValidationKey' => '****'
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
             'useFileTransport' => true,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => 'smtp.gmail.com',
-                'username' => 'testivan252@gmail.com',
-                'password' => '61287294',
+                'host' => 'smtp',
+                'username' => '****',
+                'password' => '****',
                 'port' => '587',
                 'encryption' => 'tls',
             ],

@@ -7,23 +7,19 @@ use yii\base\Model;
 
 class ContactForm extends Model
 {
-    /* Объявление переменных */
+
     public $name, $email, $subject, $body, $verifyCode;
 
-    /* Правила для полей формы обратной связи (валидация) */
+
     public function rules()
     {
         return [
-            /* Поля обязательные для заполнения */
             [['name', 'email', 'subject', 'body'], 'required'],
-            /* Поле электронной почты */
             ['email', 'email'],
-            /* Капча */
             ['verifyCode', 'captcha', 'captchaAction' => '/site/captcha'],
         ];
     }
 
-    /* Определяем названия полей */
     public function attributeLabels()
     {
         return [
@@ -35,17 +31,15 @@ class ContactForm extends Model
         ];
     }
 
-    /* функция отправки письма на почту */
     public function contact($emailto)
     {
-        /* Проверяем форму на валидацию */
         if ($this->validate()) {
             Yii::$app->mailer->compose()
-                ->setFrom([$this->email => $this->name])/* от кого */
-                ->setTo($emailto)/* куда */
-                ->setSubject($this->subject)/* имя отправителя */
-                ->setTextBody($this->body)/* текст сообщения */
-                ->send(); /* функция отправки письма */
+                ->setFrom([$this->email => $this->name])
+                ->setTo($emailto)
+                ->setSubject($this->subject)
+                ->setTextBody($this->body)
+                ->send();
 
             return true;
         } else {

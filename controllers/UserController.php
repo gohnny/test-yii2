@@ -2,11 +2,10 @@
 
 namespace app\controllers;
 
-use app\models\UserIdentity;
+
 use app\models\UserJoinForm;
 use app\models\UserLoginForm;
 use app\models\UserRecord;
-use http\Url;
 use Yii;
 use yii\web\Controller;
 
