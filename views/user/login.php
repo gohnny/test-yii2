@@ -18,6 +18,7 @@ use yii\helpers\Html;
         ]); ?>
         <?= $form->field($userLoginForm, 'email') ?>
         <?= $form->field($userLoginForm, 'password')->passwordInput() ?>
+        <?= $form->field($userLoginForm, 'remember')->checkbox() ?>
         <?= $form->field($userLoginForm, 'verifyCode')->widget(Captcha::className(), [
             'captchaAction' => '/site/captcha',
             'template' => '<div class="row"><div class="col-lg-4">{image}</div><div class="col-lg-7">{input}</div></div>',
