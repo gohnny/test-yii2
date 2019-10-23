@@ -4,3 +4,4 @@ runtime
 config/db.php
 config/web.php
 config/params.php
+web/assets

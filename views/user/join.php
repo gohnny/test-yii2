@@ -1,6 +1,5 @@
 <?php
 
-
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
@@ -19,8 +18,8 @@ use yii\widgets\ActiveForm;
         ]) ?>
         <?php echo $form->field($userJoinForm, 'name') ?>
         <?php echo $form->field($userJoinForm, 'email') ?>
-        <?php echo $form->field($userJoinForm, 'password') ?>
-        <?php echo $form->field($userJoinForm, 'confirm_password') ?>
+        <?php echo $form->field($userJoinForm, 'password')->passwordInput() ?>
+        <?php echo $form->field($userJoinForm, 'confirm_password')->passwordInput() ?>
         <?= $form->field($userJoinForm, 'verifyCode')->widget(Captcha::className(), [
             'captchaAction' => '/user/captcha',
             'template' => '<div class="row"><div class="col-lg-4">{image}</div><div class="col-lg-7">{input}</div></div>',

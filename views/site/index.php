@@ -48,33 +48,33 @@ use yii\helpers\Html;
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/php2_cr.jpg" class="img-fluid">
+                <img src="images/technologies/php2_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/yii2_cr.jpg" class="img-fluid">
+                <img src="images/technologies/yii2_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/Mysql.png" class="img-fluid">
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/git.png" class="img-fluid">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/composer_cr.jpg" class="img-fluid">
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/Linux_cr.jpg" class="img-fluid">
+                <img src="images/technologies/Mysql.png" class="img-fluid">
             </div>
 
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/html_cr.png" class="img-fluid">
+                <img src="images/technologies/git.png" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/css_cr.jpg" class="img-fluid">
+                <img src="images/technologies/composer_cr.jpg" class="img-fluid">
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <img src="images/portfolio/bootstrap.png" class="img-fluid">
+                <img src="images/technologies/Linux_cr.jpg" class="img-fluid">
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/technologies/html_cr.png" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/technologies/css_cr.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/technologies/bootstrap.png" class="img-fluid">
             </div>
         </div>
     </div>
