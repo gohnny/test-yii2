@@ -39,14 +39,7 @@ use yii\helpers\Html;
             использованию в своих проектах.
             Спасибо за внимание.
         </p>
-        <?php $posts = ['a' => 'ab']; ?>
-        <?= Html::ul($posts, ['item' => function ($item, $index) {
-            return Html::tag(
-                'li',
-                $this->render('post', ['item' => $item]),
-                ['class' => 'post']
-            );
-        }]) ?>
+
     </div>
 </div>
 </div>
