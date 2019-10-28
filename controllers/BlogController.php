@@ -3,21 +3,18 @@
 namespace app\controllers;
 
 use yii\web\Controller;
+use Yii;
+use app\models\BlogRecord;
+use yii\web\HttpException;
 
 class BlogController extends Controller
 {
-    public function actionRbacBlog()
+    public function actionBlog()
     {
-        return $this->render('rbac-blog');
-    }
+        $id = Yii::$app->request->get('id');
+        $blog = BlogRecord::findOne($id);
+        if (empty($blog)) throw new HttpException(404, 'Такой страницы не существует');
 
-    public function actionDockerBlog()
-    {
-        return $this->render('docker-blog');
-    }
-
-    public function actionActiverecordBlog()
-    {
-        return $this->render('activerecord-blog');
+        return $this->render('blog', compact('blog'));
     }
 }

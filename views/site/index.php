@@ -98,7 +98,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/activerecord-blog']); ?>"
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/1']); ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/docker-blog']); ?>"
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/2']); ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/rbac-blog']); ?>"
+                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/3']); ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>
