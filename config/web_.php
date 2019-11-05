@@ -8,7 +8,10 @@ return [
     'components' => [
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'showScriptName' => false
+            'showScriptName' => false,
+            'rules' => [
+                'blog/<id:\d+>' => 'blog/blog'
+            ]
         ],
         'request' => [
             'cookieValidationKey' => '****'
