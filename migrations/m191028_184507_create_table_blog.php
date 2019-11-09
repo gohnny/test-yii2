@@ -26,9 +26,7 @@ class m191028_184507_create_table_blog extends Migration
      */
     public function safeDown()
     {
-        echo "m191028_184507_create_table_blog cannot be reverted.\n";
-
-        return false;
+        $this->dropTable('{{%blog}}');
     }
 
     /*
