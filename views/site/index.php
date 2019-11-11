@@ -1,6 +1,6 @@
 <?php
 
-use yii\helpers\Html;
+use yii\helpers\Url;
 
 ?>
 <header class="header">
@@ -98,7 +98,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/1']); ?>"
+                            <a href="<?= Url::to(['/blog/blog', 'slug' => 'osnovu-doker']) ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>
@@ -117,7 +117,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/2']); ?>"
+                            <a href="<?= Url::to(['/blog/blog', 'slug' => 'formirovanie-zaprosov-dlya-vuborki']) ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ use yii\helpers\Html;
                             </p>
                         </div>
                         <div class="card-footer">
-                            <a href="<?= Yii::$app->getUrlManager()->createUrl(['blog/3']); ?>"
+                            <a href="<?= Url::to(['/blog/blog', 'slug' => 'rbac-eto-prosto']) ?>"
                                class="card-link">Read more</a>
                         </div>
                     </div>

@@ -3,18 +3,25 @@
 namespace app\controllers;
 
 use yii\web\Controller;
-use Yii;
 use app\models\BlogRecord;
-use yii\web\HttpException;
+use yii\web\NotFoundHttpException;
 
 class BlogController extends Controller
 {
-    public function actionBlog()
+    public function actionBlog($slug)
     {
-        $id = Yii::$app->request->get('id');
-        $blog = BlogRecord::findOne($id);
-        if (empty($blog)) throw new HttpException(404, 'Такой страницы не существует');
+        return $this->render('blog', [
+            'blog' => $this->findBlogBySlug($slug),
+        ]);
+    }
 
-        return $this->render('blog', compact('blog'));
+    protected function findBlogBySlug($slug)
+    {
+
+        if (($blog = BlogRecord::findOne(['slug' => $slug])) !== null) {
+            return $blog;
+        } else {
+            throw new NotFoundHttpException('Blog not found');
+        }
     }
 }

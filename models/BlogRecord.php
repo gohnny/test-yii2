@@ -11,20 +11,4 @@ class BlogRecord extends ActiveRecord
     {
         return 'blog';
     }
-
-    public static function FindBlogById($id)
-    {
-        return self::findOne(['id' => $id]);
-    }
-
-    public function behaviors()
-    {
-        return [
-            [
-                'class' => SluggableBehavior::className(),
-                'attribute' => 'title',
-            ]
-        ];
-    }
-
 }

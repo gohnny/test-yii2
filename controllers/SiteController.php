@@ -25,7 +25,6 @@ class SiteController extends Controller
         if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['emailto'])) {
             Yii::$app->session->setFlash('contactFormSubmitted');
             return $this->refresh();
-            /* иначе выводим форму обратной связи */
         } else {
             return $this->render('feedbackForm', [
                 'model' => $model,
